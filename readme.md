@@ -1,5 +1,7 @@
 # React TypeScript SPA w/ Vite
 
+![Starter Logo](docs/images/react-vite-typescript-starter.png)
+
 - [React TypeScript SPA w/ Vite](#react-typescript-spa-w-vite)
   - [Overview](#overview)
   - [Getting Started](#getting-started)
@@ -247,7 +249,7 @@ $theme-colors: (
   // "danger": $danger,
   // "light": $light,
   // "medium": $medium,
-  // "dark": $dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  // "dark": $dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 );
 // $grid-breakpoints: (
 //   xs: 0,
