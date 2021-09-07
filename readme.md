@@ -1,7 +1,32 @@
 # React TypeScript SPA w/ Vite
 
-- [Project Structure](#project-structure) - Explains the intended purpose of each folder/file
-- [Manual Setup Instructions](#manual-setup-instructions) - If you want to start from scratch instead of cloning this template
+- [React TypeScript SPA w/ Vite](#react-typescript-spa-w-vite)
+  - [Overview](#overview)
+  - [Getting Started](#getting-started)
+  - [Project Structure](#project-structure)
+    - [`/src` folders](#src-folders)
+    - [Root level files](#root-level-files)
+  - [Manual Setup Instructions](#manual-setup-instructions)
+    - [Create Vite Project](#create-vite-project)
+    - [Setup Aliases](#setup-aliases)
+    - [Setup global types](#setup-global-types)
+    - [Setup Bootstrap CSS](#setup-bootstrap-css)
+    - [Setup React Router](#setup-react-router)
+
+## Overview
+
+This starter template leverages the following technologies:
+
+- React
+- Vite
+- TypeScript
+- Bootstrap v5
+- React Router v6
+- Sass
+
+It also tries to establish a few conventions around folder structure.
+
+## Getting Started
 
 ## Project Structure
 
@@ -222,7 +247,7 @@ $theme-colors: (
   // "danger": $danger,
   // "light": $light,
   // "medium": $medium,
-  // "dark": $dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  // "dark": $dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 );
 // $grid-breakpoints: (
 //   xs: 0,
