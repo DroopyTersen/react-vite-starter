@@ -30,6 +30,19 @@ It also tries to establish a few conventions around folder structure.
 
 ## Getting Started
 
+You can make a copy of the starter repo (without the GIT history) by running the following command. This
+
+```
+npx degit droopytersen/react-vite-starter my-new-project
+```
+
+Then you can `cd` into your project directory and install dependencies and run the app
+
+```
+npm install
+npm start
+```
+
 ## Project Structure
 
 ### `/src` folders
@@ -249,7 +262,7 @@ $theme-colors: (
   // "danger": $danger,
   // "light": $light,
   // "medium": $medium,
-  // "dark": $dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  // "dark": $dark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 );
 // $grid-breakpoints: (
 //   xs: 0,

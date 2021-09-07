@@ -13,5 +13,8 @@ export const viteAliases = {
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: { alias: viteAliases },
+  server: {
+    open: "/",
+  },
   plugins: [reactRefresh(), visualizer()],
 });
