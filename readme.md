@@ -26,7 +26,7 @@ It also tries to establish a few conventions around folder structure.
 
 ## Getting Started
 
-You can make a copy of the starter repo (without the GIT history) by running the following command. This
+You can make a copy of the starter repo (without the GIT history) by running the following command.
 
 ```
 npx degit droopytersen/react-vite-starter my-new-project
