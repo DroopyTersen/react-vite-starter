@@ -2,7 +2,7 @@ import React from "react";
 import { Layout } from "~global/layout/Layout";
 import Card from "~ui-toolkit/components/Card/Card";
 
-export const HomeView = () => {
+export const Page = () => {
   return (
     <Layout>
       <div className="p-5">
@@ -13,7 +13,7 @@ export const HomeView = () => {
         >
           <ul>
             <li>
-              Look at <code>App.tsx</code> to see how React Router is configured.
+              Look at <code>App.tsx</code> to see how React Router is configured!
             </li>
             <li>Edit any file to see Hot Module Reloading.</li>
             <li>

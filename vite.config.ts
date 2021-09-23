@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import * as path from "path";
 import reactRefresh from "@vitejs/plugin-react-refresh";
 import { visualizer } from "rollup-plugin-visualizer";
-
+import ssr from "vite-plugin-ssr/plugin";
 export const viteAliases = {
   "~common": path.resolve(__dirname, "./src/common"),
   "~features": path.resolve(__dirname, "./src/features"),
@@ -16,5 +16,5 @@ export default defineConfig({
   server: {
     open: "/",
   },
-  plugins: [reactRefresh(), visualizer()],
+  plugins: [reactRefresh(), ssr(), visualizer()],
 });
