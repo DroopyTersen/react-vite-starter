@@ -9,11 +9,13 @@ import { BreedsView } from "../views/BreedsView";
 export function Page() {
   // useScrollToTop();
   return (
-    <Routes>
-      <Route path={appRoutes.dogs()}>
-        <Route path="/" element={<BreedsView />} />
-        <Route path=":breedId" element={<BreedDetailsView />} />
-      </Route>
-    </Routes>
+    <Layout>
+      <Routes>
+        <Route path={appRoutes.dogs()}>
+          <Route path="/" element={<BreedsView />} />
+          <Route path=":breedId" element={<BreedDetailsView />} />
+        </Route>
+      </Routes>
+    </Layout>
   );
 }

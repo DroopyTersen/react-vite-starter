@@ -1,6 +1,5 @@
 import React from "react";
 import { Header } from "./Header";
-import "../styles/global.scss";
 export const Layout = ({ children }) => {
   return (
     <>

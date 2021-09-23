@@ -2,6 +2,7 @@ import express from "express";
 import { createPageRenderer } from "vite-plugin-ssr";
 
 const isProduction = process.env.NODE_ENV === "production";
+console.log("🚀 | isProduction", isProduction);
 const root = `${__dirname}/..`;
 
 startServer();
